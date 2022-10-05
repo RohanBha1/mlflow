@@ -48,7 +48,7 @@ gitdb==4.0.9 \
     --hash=sha256:8033ad4e853066ba6ca92050b9df2f89301b8fc8bf7e9324d412a63f8bf1a8fd \
     --hash=sha256:bac2fd45c0a1c9cf619e63a90d62bdc63892ef92387424b855792a6cabe789aa
     # via gitpython
-gitpython==3.1.24 \
+gitpython==3.1.27 \
     --hash=sha256:dc0a7f2f697657acc8d7f89033e8b1ea94dd90356b2983bca89dc8d2ab3cc647 \
     --hash=sha256:df83fdf5e684fef7c6ee2c02fc68a5ceb7e7e759d08b694088d0cacb4eba59e5
     # via mlflow
@@ -124,11 +124,11 @@ jinja2==3.0.3 \
     --hash=sha256:077ce6014f7b40d03b47d1f1ca4b0fc8328a692bd284016f806ed0eaca390ad8 \
     --hash=sha256:611bb273cd68f3b993fabdc4064fc858c5b47a973cb5aa7999ec1ba405c87cd7
     # via flask
-joblib==1.1.0 \
+joblib==1.2.0 \
     --hash=sha256:4158fcecd13733f8be669be0683b96ebdbbd38d23559f54dca7205aea1bf1e35 \
     --hash=sha256:f21f109b3c7ff9d95f8387f752d0d9c34a02aa2f7060c2135f465da0e5160ff6
     # via scikit-learn
-mako==1.1.5 \
+mako==1.2.2 \
     --hash=sha256:169fa52af22a91900d852e937400e79f535496191c63712e3b9fda5a9bed6fc3 \
     --hash=sha256:6804ee66a7f6a6416910463b00d76a7b25194cd27f1918500c5bd7be2a088a23
     # via alembic
@@ -205,7 +205,7 @@ markupsafe==2.0.1 \
     # via
     #   jinja2
     #   mako
-mlflow==1.20.2 \
+mlflow==1.23.1 \
     --hash=sha256:963c22532e82a93450674ab97d62f9e528ed0906b580fadb7c003e696197557c \
     --hash=sha256:b15ff0c7e5e64f864a0b40c99b9a582227315eca2065d9f831db9aeb8f24637b
     # via -r requirements.in
@@ -280,7 +280,7 @@ prometheus-flask-exporter==0.18.5 \
     --hash=sha256:38a3a1fdaf4fc98f988d33f551a8005d778d6b43ca0a2bc4aafb19d0449a48b9 \
     --hash=sha256:f9a03e88a8415fe96f785c31fc82bbd290a606aaab87bd244414637d55ef0ba4
     # via mlflow
-protobuf==3.19.1 \
+protobuf==3.19.5 \
     --hash=sha256:038daf4fa38a7e818dd61f51f22588d61755160a98db087a046f80d66b855942 \
     --hash=sha256:28ccea56d4dc38d35cd70c43c2da2f40ac0be0a355ef882242e8586c6d66666f \
     --hash=sha256:36d90676d6f426718463fe382ec6274909337ca6319d375eebd2044e6c6ac560 \
